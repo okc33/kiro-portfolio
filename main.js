@@ -13,4 +13,4 @@ const observer = new IntersectionObserver((entries) => {
   });
 }, { threshold: 0.1 });
 
-document.querySelectorAll('.photo-grid img, .work-card').forEach(el => observer.observe(el));
+document.querySelectorAll('.photo-grid img, .work-card, .project-card').forEach(el => observer.observe(el));
